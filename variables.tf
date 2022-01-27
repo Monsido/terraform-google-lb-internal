@@ -31,13 +31,11 @@ variable "global_access" {
 }
 
 variable "network" {
-  description = "Name of the network to create resources in."
-  default     = "default"
+  description = "self_link of the network to create resources in."
 }
 
 variable "subnetwork" {
-  description = "Name of the subnetwork to create resources in."
-  default     = "default"
+  description = "self_link of the subnetwork to create resources in."
 }
 
 variable "network_project" {
